@@ -376,7 +376,7 @@ def main():
               - **220102051** - Muhamad Nur Ramdoni
               - **220102069** - Radhea Izzul Muttaqin
               """)
-     with tab2:
+    with tab2:
         st.header("🌐 Business Understanding")
         st.subheader("Latar Belakang")
         st.write("""
