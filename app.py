@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 
 # --- Page Configuration and Custom CSS ---
 st.set_page_config(
-    page_title="Dashboard Prediksi Harga Rumah",
+    page_title="Clusterisasi Harga Rumah Bandung",
     page_icon="🏠",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -339,8 +339,8 @@ def main():
     st.sidebar.markdown("---")
     st.sidebar.info("Dashboard ini dapat diakses melalui URL publik Ngrok.")
 
-    st.sidebar.markdown("[🔗 Supervised Learning](https://d796-35-198-208-86.ngrok-free.app/)")
-    st.sidebar.markdown("[🔗 Unsupervised Learning](https://1813-34-126-149-228.ngrok-free.app/)")
+    st.sidebar.markdown("[🔗 Supervised Learning](https://supervisedlearning-2klury893s9kkjhyusenni.streamlit.app/)")
+    st.sidebar.markdown("[🔗 Unsupervised Learning](https://unsupervisedlearning-bap5f5pbvjdwhqraeekmjp.streamlit.app/)")
 
     # Initialize session state variables if they don't exist
     if 'clustering_completed' not in st.session_state:
