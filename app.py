@@ -125,7 +125,7 @@ body {
 st.markdown("""
 <div class="main-header">
     <h1>🏠 Clusterisasi Rumah Bandung</h1>
-    <p>Powered by Streamlit & Ngrok | Made by Itmam</p>
+    <p>Powered by Streamlit & Ngrok | Made by Kelompok 3</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -376,7 +376,7 @@ def main():
               - **220102051** - Muhamad Nur Ramdoni
               - **220102069** - Radhea Izzul Muttaqin
               """)
-    with tab2:
+     with tab2:
         st.header("🌐 Business Understanding")
         st.subheader("Latar Belakang")
         st.write("""
@@ -391,6 +391,19 @@ def main():
             3.  **Mengidentifikasi Faktor Kunci Harga:** Menganalisis dan menyajikan faktor-faktor apa saja yang paling signifikan mempengaruhi harga rumah di suatu area.
             """)
 
+        st.subheader("Pemangku Kepentingan (Stakeholders)")
+        st.write("""
+            - **Penjual Properti:** Mendapatkan acuan harga yang realistis untuk properti mereka.
+            - **Calon Pembeli:** Memverifikasi apakah harga yang ditawarkan untuk sebuah properti sudah wajar.
+            - **Agen Real Estate:** Memberikan nasihat yang didukung data kepada klien dan mempercepat proses transaksi.
+            - **Investor Properti:** Mengidentifikasi potensi investasi dan tren pasar properti.
+            - **Bank dan Lembaga Keuangan:** Sebagai alat bantu dalam proses valuasi agunan untuk pengajuan kredit pemilikan rumah (KPR).
+            """)
+            
+        st.subheader("Manfaat yang Diharapkan")
+        st.write("""
+            Dengan adanya dashboard ini, diharapkan proses jual-beli properti menjadi lebih transparan, efisien, dan berbasis data, sehingga memberikan keuntungan bagi semua pihak yang terlibat.
+            """)
     with tab3:
         st.header("Data Exploration")
         dashboard.data_exploration()
